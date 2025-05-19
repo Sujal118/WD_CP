@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="group.css">
+                           
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="New Scheme">
+        <h1>----WELCOME TO THIS PAGE----</h1>
+        <P>We are pleased to introduce a series of government schemes aimed at empowering individuals and fostering
+            community development. These initiatives are designed to address key areas such as education, healthcare,
+            employment, and social welfare, ensuring inclusive growth and prosperity for all.</P>
+
+        <h2>The List Of Schemes Is As Follows:-</h2>
+        <h3> 1:One Nation One Subscription</h3>
+        <img src="onesub.png">
+        <p>As of January 18, 2025, the Government of India has introduced the One Nation One Subscription scheme, a
+            centrally sponsored initiative led by the Ministry of Education. Launched in 2025, this scheme aims to
+            establish a comprehensive digital library providing institutional access to global research across various
+            academic disciplines. The initiative seeks to democratize knowledge, ensuring that students, educators, and
+            researchers throughout the country can access a vast array of scholarly resources, thereby fostering an
+            environment conducive to academic excellence and innovation</p>
+
+        <h3>2: Subhadra Yojana</h3>
+        <img src="subhadra-yojana.avif">
+        <p>Another recent government initiative is the Subhadra Yojana, launched by the Government of Odisha on
+            September 17, 2024. This women-centric welfare scheme aims to empower women aged 21 to 60 years by providing
+            direct financial assistance. Eligible beneficiaries receive ₹10,000 annually in two installments of ₹5,000,
+            disbursed on Raksha Bandhan and International Women's Day, over a five-year period. The funds are
+            transferred directly into Aadhaar-linked bank accounts, promoting economic independence among women from
+            economically weaker sections.
+        </p>
+
+        <h3>3:Pradhan Mantri Fasal Bima Yojana</h3>
+        <img src="pmfby.jpg">
+        <p>Another recent government initiative is the Extension of the Pradhan Mantri Fasal Bima Yojana (PMFBY),
+            approved on January 1, 2025. The Union Cabinet sanctioned the continuation of this flagship crop insurance
+            scheme until the fiscal year 2025-26, with a total outlay of ₹69,515.71 crore. This extension aims to
+            provide risk coverage for crops against non-preventable natural calamities, ensuring financial stability for
+            farmers across the country. Additionally, a new Fund for Innovation and Technology (FIAT) with a corpus of
+            over ₹824 crore has been established to enhance the scheme's implementation through advanced technology,
+            improving transparency and expediting claim settlements.
+        </p>
+
+        <h3>4:PM Schools for Rising India </h3>
+        <img src="school for rising.png">
+        <p>Another recent government initiative is the PM Schools for Rising India (PM SHRI) scheme, launched by the
+            Department of School Education and Literacy. This scheme aims to develop and upgrade select existing schools
+            across India to showcase all components of the National Education Policy 2020. The PM SHRI schools will
+            provide high-quality education in an equitable and inclusive manner, serving as exemplar schools and
+            offering mentorship to other schools in their vicinity.
+        </p>
+
+        <h3>5:Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)</h3>
+        <img src="pmkisan.jpg">
+        <p>Another recent government initiative is the Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme, a central
+            sector program by the Government of India. This scheme provides financial assistance to small and marginal
+            farmers, aiming to support their financial needs for procuring various inputs to ensure proper crop health
+            and yields. Under PM-KISAN, eligible farmers receive direct income support of ₹6,000 per year, disbursed in
+            three equal installments of ₹2,000 each, directly into their bank accounts. This initiative seeks to empower
+            farmers, ensuring timely access to financial resources for agricultural needs.
+        </p>n 
+    </div>
+
+    
+</body>
+
+</html>

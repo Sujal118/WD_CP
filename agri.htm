@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Agriculture & Farmers Welfare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to bottom, #ffffff, #e3f2fd);
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            height: 100px;
+            margin-right: 15px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+            color: #4a2f04;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            letter-spacing: 1px;
+            padding-left: 100px;
+        }
+
+        nav {
+            background-color: #874b02;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        nav ul li a:hover {
+            background-color: #003f7f;
+        }
+
+        .image2 {
+            display: inline-block;
+            width: 100vw;
+        }
+
+        .font_sixe {
+            display: inline-block;
+            color: #311E04;
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            position: relative;
+        }
+
+        .font_sixe::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #311E04;
+        }
+
+        .font_sixe::before {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #311E04;
+        }
+
+        .container {
+            margin: 35px 35px;
+        }
+
+        .styled-table {
+            width: 100%;
+            border-collapse: collapse;
+            padding-left: 0px;
+            font-size: 18px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table thead {
+            background-color: #4a2f04;
+            color: white;
+        }
+
+        .styled-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .styled-table tr:hover {
+            background-color: #ddd;
+        }
+
+        .styled-table a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .styled-table a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            position: relative;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner h2 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px 30px;
+            border-radius: 8px;
+        }
+
+        .content {
+            padding: 30px 15px;
+        }
+
+        .content h3 {
+            color: #013369;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+
+        .footer {
+            background-color: #013369;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="./image1.png" alt="">
+        <h1>Department of Agriculture & Farmers Welfare</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="./scheme.html">Scheme</a></li>
+            
+            <li><a href="./registration.html">Registration</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./recruitment.html">Recruitment</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <img class="image2" src="./image2.png" alt="">
+    </div>
+    <div class="container">
+        <h4 class="font_sixe">
+            Maharashtra
+        </h4>
+
+
+        <div class="district-container">
+            <h3>District Reports</h3>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>SR. NO</th>
+                        <th>TITLE</th>
+                        <th>PUBLISH DATE</th>
+                        <th>DETAILS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Palghar</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Palghar.pdf"
+                                download>Download (382.81 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Konkan</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank"
+                                href="https://agriwelfare.gov.in/sites/default/files/Konkan_20.02.2018.pdf"
+                                download>Download (1.73 MB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Ahmadnagar</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Ahmednagar.pdf"
+                                download>Download (1.44 MB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Akola</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Akola.pdf"
+                                download>Download (321.64 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Amravati</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Amravati.pdf"
+                                download>Download (317.22 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Aurangabad</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Aurangabad.pdf"
+                                download>Download (517.74 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Beed</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Beed.pdf"
+                                download>Download (307.83 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Bhandara</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Bhandara.pdf"
+                                download>Download (234.91 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Buldana</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Buldhana.pdf"
+                                download>Download (322.27 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Chandrapur</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Chandrapur.pdf"
+                                download>Download (237.25 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Dhule</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Dhule.pdf"
+                                download>Download (1.58 MB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Gadchiroli</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Gadchiroli.pdf"
+                                download>Download (232.81 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Gondiya</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Gondia.pdf"
+                                download>Download (216.84 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>Hingoli</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Hingoli.pdf"
+                                download>Download (280.05 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Jalgaon</td>
+                        <td>05-05-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Jalgaon.pdf"
+                                download>Download (1.22 MB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>Jalna</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Jalna.pdf"
+                                download>Download (279.66 KB)</a></td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Kolhapur</td>
+                        <td>12-04-2019</td>
+                        <td><a target="_blank" href="https://agriwelfare.gov.in/sites/default/files/Kolhapur.pdf"
+                                download>Download (1.59 MB)</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+    <div class="banner">
+        <h2>Empowering Farmers, Enriching Nation</h2>
+    </div>
+    <div class="content" id="home">
+        <h3>Welcome to the Department of Agriculture & Farmers Welfare</h3>
+        <p>Our mission is to promote sustainable agriculture and improve the welfare of farmers across the nation. We
+            provide various schemes and services to support the agricultural community.</p>
+    </div>
+    <div class="content" id="about">
+        <h3>About Us</h3>
+        <div class="card">
+            <p>The Department of Agriculture & Farmers Welfare is responsible for agricultural development, farmer
+                welfare programs, and implementing policies aimed at achieving sustainable growth and food security. Our
+                mission is to improve rural livelihoods and support innovations in farming techniques.</p>
+        </div>
+    </div>
+    <div class="content" id="schemes">
+        <h3>Our Schemes</h3>
+        <ul>
+            <li><strong>Pradhan Mantri Fasal Bima Yojana (PMFBY):</strong> Crop insurance to protect farmers against
+                unforeseen losses.</li>
+            <li><strong>Pradhan Mantri Krishi Sinchayee Yojana (PMKSY):</strong> Irrigation solutions for improved water
+                resource management.</li>
+            <li><strong>Soil Health Card Scheme:</strong> Enhancing soil productivity with detailed soil analysis and
+                recommendations.</li>
+        </ul>
+    </div>
+    <div class="content" id="resources">
+        <h3>Farmer Resources</h3>
+        <div class="card">
+            <h4>Weather Forecast</h4>
+            <p>Access the latest weather forecasts and climate predictions to make informed decisions about farming
+                activities.</p>
+        </div>
+        <div class="card">
+            <h4>Market Prices</h4>
+            <p>Stay updated with real-time market prices for crops and other agricultural commodities.</p>
+        </div>
+    </div>
+    <div class="content" id="news">
+        <h3>Latest News</h3>
+        <p>Stay informed about the latest developments and initiatives in the agricultural sector, including technology
+            updates, success stories, and policy changes.</p>
+    </div>
+    <div class="content" id="contact">
+        <h3>Contact Us</h3>
+        <p>Address: Krishi Bhawan, New Delhi, India</p>
+        <p>Phone: 011-23389340</p>
+        <p>Email: contact-agri@nic.in</p>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Department of Agriculture & Farmers Welfare, Government of India</p>
+    </footer>
+</body>
+
+</html>
